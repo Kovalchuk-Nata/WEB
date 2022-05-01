@@ -1,0 +1,56 @@
+table {
+    border-collapse: collapse;
+}
+
+.first {
+    background-color: #198f8f;
+    color: #0C0C0B;
+}
+
+.first:hover {
+    background: #A35121;
+}
+
+.second {
+    background-color: #f5f519;
+    color: #1B365C;
+
+}
+
+.second:hover {
+    background: #B378F0;
+}
+
+.area1 {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 2px double black;
+}
+
+.circle1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #fd0224;
+    border-radius: 50%;
+    left: 150px;
+    bottom: 50px;
+}
+
+
+.area2 {
+    width: 400px;
+    height: 200px;
+    border: 2px double black;
+}
+
+.circle2 {
+    width: 100px;
+    height: 100px;
+    background: #fd0224;
+    border-radius: 50%;
+    top: 50px;
+    left: 150px;
+    transform: translateX(150px) translateY(-150px);
+}
