@@ -1,0 +1,37 @@
+/* 1 завдання */
+#educ,
+.kpi {
+    cursor: pointer;
+}
+
+.violetcolor {
+    background: #d17bb6;
+    color: #000000;
+}
+
+.yellowcolor {
+    background: #ffd967;
+    color: #442c00;
+}
+
+/* 2 завдання */
+button {
+    background: #ffd967;
+    color: #000000;
+}
+
+.imgvisibility {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.large {
+    width: 800px;
+}
+
+.lower {
+    width: 200px;
+}
