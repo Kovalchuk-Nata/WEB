@@ -103,7 +103,7 @@ button {
 }
 
 .winterCollection {
-    background: url(../WEB/lab4/pexels.jpg) no-repeat center top / cover;
+    background: url(../lab4/pexels.jpg) no-repeat center top / cover;
     height: 800px;
     background-position: 25% 75%;
 }
