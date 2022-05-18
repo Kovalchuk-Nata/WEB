@@ -65,7 +65,7 @@ a {
 button {
     background-color: #fffffe;
     color: rgb(0, 0, 0);
-    border-color: #dcdcd8;
+    border: 1px solid rgb(222, 222, 222);
     padding: 12px;
     text-align: center;
     text-decoration: none;
@@ -76,7 +76,43 @@ button {
     cursor: pointer;
 }
 
-.icons{
-    width: 44px;
-    height: 44px;
+.bluebtn{
+    background-color: #2f75ec;
+    border: none;
+    color:white;
 }
+
+.icons{
+    border-radius: 50%;
+}
+.blueText{
+    font-family: 'Cookie', cursive;
+     color: #bf900d;  /*#2f75ec;*/
+     font-size: 36px;
+}
+
+.title1{
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+}
+
+.title2{
+    font-style: oblique;
+}
+
+.winterCollection{
+    background-color: #cbc7c5;
+    width: 100%;
+    height: 50vw;
+    position	: absolute;
+}
+.mainphoto {
+    height: 50vw;
+}
+
+.containerWinter{
+    position: absolute;
+    top: 30%;
+    right: 100px;
+}
+
