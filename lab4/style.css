@@ -1,7 +1,6 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(209, 160, 255);
 }
 
 #menu1 {
@@ -89,7 +88,6 @@ button {
 .blueText {
     font-family: 'Cookie', cursive;
     color: #bf900d;
-    /*#2f75ec;*/
     font-size: 36px;
 }
 
@@ -135,12 +133,64 @@ button {
 }
 
 .imgs{
-    max-width: 35%;
+    max-width: 30%;
     padding: 10px 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.textConteiner{
+    position: absolute;
+    left: 20%;
+    max-width: 17%;
+    transform: translate(0%, 10%);
+    padding: 50px 0;
+    cursor: pointer;
+}
+.two{
+    left: 53%;
+}
+
+.three{
+   left: 86%;
 }
 
 .title3 {
     font-family: 'Playfair Display', serif;
     font-size: 50px;
     text-align: center;
+    padding: 0 50px;
 }
+
+.yellowbtn{
+    background-color: #bf900d;
+    border: none;
+    color: black;
+}
+
+.firstText{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    }
+
+.secondText{
+    font-family: 'Cookie', cursive;
+    color: #bf900d;
+    font-size: 27px;
+    -webkit-text-stroke: 0.4px black;
+}
+
+.latestProducts{
+    width: 100%;
+    height: 1000px;
+}
+
+.latestHeader{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 0;
+}
+
+
