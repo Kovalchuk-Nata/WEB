@@ -18,18 +18,18 @@ body {
     display: flex;
     width: 16%;
     justify-content: space-evenly;
-    align-items:center;
+    align-items: center;
 }
 
-p{
- margin: 0 5px;
+p {
+    margin: 0 5px;
 }
 
 #part1b {
     display: flex;
     width: 40%;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
 
 }
 
@@ -37,7 +37,7 @@ p{
     font-family: "Poppins", sans-serif;
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     width: 100%;
     height: 100px;
     color: rgb(0, 0, 0);
@@ -48,17 +48,17 @@ p{
     display: flex;
     width: 30%;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
-.menu22{
+.menu22 {
     margin: 0 25px;
 }
 
 a {
     text-decoration: none;
-    color:black;
+    color: black;
     margin: 0 10px;
 }
 
@@ -76,43 +76,71 @@ button {
     cursor: pointer;
 }
 
-.bluebtn{
+.bluebtn {
     background-color: #2f75ec;
     border: none;
-    color:white;
+    color: white;
 }
 
-.icons{
+.icons {
     border-radius: 50%;
 }
-.blueText{
+
+.blueText {
     font-family: 'Cookie', cursive;
-     color: #bf900d;  /*#2f75ec;*/
-     font-size: 36px;
+    color: #bf900d;
+    /*#2f75ec;*/
+    font-size: 36px;
 }
 
-.title1{
+.title1 {
     font-family: 'Playfair Display', serif;
     font-size: 72px;
 }
 
-.title2{
+.title2 {
     font-style: oblique;
 }
 
-.winterCollection{
-    background-color: #cbc7c5;
+.winterCollection {
+    background: url(../test/pexels.jpg) no-repeat center top / cover;
+    height: 800px;
+    background-position: 25% 75%;
+}
+
+.containerWinter {
+    position: sticky;
+    left: 60%;
+    max-width: 40%;
+    top: 40%;
+    padding: 150px;
+}
+
+.shopByCategory{
+    background-color: white;
     width: 100%;
-    height: 50vw;
-    position	: absolute;
-}
-.mainphoto {
-    height: 50vw;
-}
-
-.containerWinter{
-    position: absolute;
-    top: 30%;
-    right: 100px;
+    height: 650px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    justify-content: center;
 }
 
+.containerShopBy{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.imgs{
+    max-width: 35%;
+    padding: 10px 0;
+}
+
+.title3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    text-align: center;
+}
