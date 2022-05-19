@@ -182,7 +182,7 @@ button {
 
 .latestProducts{
     width: 100%;
-    height: 1450px;
+    max-height: 1450px;
 }
 
 .latestHeader{
@@ -224,5 +224,41 @@ button {
 
 .findBestbtn{
 background-color:black;
+}
+
+.BestCollection{
+    display: flex;
+    flex-direction: row;
+    padding: 100px 50px;
+    height: 650px;
+}
+
+.cointainerBest{
+    width: 33%;
+    
+}
+
+.titleBest{
+    text-align: left;
+    padding: 0;
+    max-width: 80%;
+}
+.firstPart img{
+    width: 100%;
+}
+
+.secondPart{
+    background: url(../lab4/pex.jpg) no-repeat center top / cover;
+}
+
+.imgsThirdPart{
+    width: 50%;
+}
+
+.thirdPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
 }
 
