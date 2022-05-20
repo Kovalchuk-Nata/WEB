@@ -235,7 +235,6 @@ background-color:black;
 
 .cointainerBest{
     width: 33%;
-    
 }
 
 .titleBest{
@@ -274,9 +273,7 @@ background-color:black;
 .btnThirdPart:hover {
 	background-color: rgb(255, 255, 255);
 	color: #000000;
-    border:1px #dc9393;
-    
-	
+    border:1px #dc9393;	
 }
 
 .thirdContainer{
