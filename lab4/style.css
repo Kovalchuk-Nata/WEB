@@ -182,7 +182,7 @@ button {
 
 .latestProducts{
     width: 100%;
-    max-height: 1450px;
+    max-height: 1500px;
 }
 
 .latestHeader{
@@ -252,13 +252,36 @@ background-color:black;
 }
 
 .imgsThirdPart{
-    width: 50%;
+    max-width: 35%;
+    padding: 20px 50px 20px 20px;
 }
 
 .thirdPart{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-content: flex-end;
 }
 
+.btnThirdPart{
+    background:#dc9393;
+    color: rgb(255, 255, 255);
+    border: none;
+    text-align: right;
+    max-width: 128px;
+}
+
+.btnThirdPart:hover {
+	background-color: rgb(255, 255, 255);
+	color: #000000;
+    border:1px #dc9393;
+    
+	
+}
+
+.thirdContainer{
+    padding: 0 0 0 30px;
+    display: flex;
+    align-items: center;    
+    justify-content: flex-end;
+}
