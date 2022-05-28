@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="лабораторна робота №4">
+    <meta name="keywords" content="HTML, css, лаб 4">
+    <title>Ковальчук Н.Ю. ІТ-02 19 варіант</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form-container" class="flex">
+        <div id="form">
+            <form id="form" onsubmit="return false">
+                <fieldset>
+                    <legend>Форма для заповнення</legend>
+                    <input type="text" id="full-name" name="full-name" placeholder="ПІБ" />
+                    <input type="text" id="card" name="card" placeholder="ID-card" />
+                    <input type="text" id="faculty" name="faculty" placeholder="Факультет" />
+                    <input type="text" id="birthday" name="birthday" placeholder="Дата народження" />
+                    <input type="text" id="address" name="address" placeholder="Адреса" />
+                </fieldset>
+                <input type="submit" id="submit-btn" value="Підтвердити" />
+            </form>
+        </div>
+        <div id="input-data-result" class="flex hidden">
+            <div class="result-row"><strong id="result-header">Введені дані</strong></div>
+            <div id="full-name" class="result-row"><strong>ПІБ: </strong></div>
+            <div id="card" class="result-row"><strong>ID-card: </strong></div>
+            <div id="faculty" class="result-row"><strong>Факультет: </strong></div>
+            <div id="birthday" class="result-row"><strong>Дата народження: </strong></div>
+            <div id="address" class="result-row"><strong>Адреса: </strong></div>
+        </div>
+    </div>
+
+    <div class="container flex-container">
+        <div id="table">
+          <input type="color" id="color-picker" value="#ee73ec" />
+          <table id="table6x6">
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td class="changecolor">7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>14</td>
+              <td>15</td>
+              <td>16</td>
+              <td>17</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <td class="changecolor" id="special">19</td>
+              <td>20</td>
+              <td>21</td>
+              <td>22</td>
+              <td>23</td>
+              <td>24</td>
+            </tr>
+            <tr>
+              <td>25</td>
+              <td>26</td>
+              <td>27</td>
+              <td>28</td>
+              <td>29</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td class="changecolor" >31</td>
+              <td>32</td>
+              <td>33</td>
+              <td>34</td>
+              <td>35</td>
+              <td>36</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
